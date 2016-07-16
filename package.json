@@ -1,0 +1,42 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Look ma, I'm learning front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeclaire/Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eeclaire/Website/issues"
+  },
+  "homepage": "https://github.com/eeclaire/Website#readme",
+  "dependencies": {
+    "react": "^15.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "http-server": "^0.9.0",
+    "image-webpack-loader": "^2.0.0",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "react-dom": "^15.2.1",
+    "sass-loader": "^4.0.0",
+    "webpack": "^1.13.1"
+  }
+}
