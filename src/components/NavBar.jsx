@@ -1,15 +1,17 @@
 import React from 'react';
 
+import { Link } from 'react-router';
+
 
 const NavBar =  React.createClass({
 	render() {
 		return (
 			<nav>
 			  <ul>
-			    <li><a href="#">Projects</a></li>
-			    <li><a href="#">Resume</a></li>
-			    <li><a href="#">Blog</a></li>
-			    <li><a href="#">Photo</a></li>
+			    <li><Link to="projects">Projects</Link></li>
+			    <li><Link to="resume">Resume</Link></li>
+			    <li><Link to="blog">Blog</Link></li>
+			    <li><Link to="photo">Photo</Link></li>
 			  </ul>
 			</nav>
 		);

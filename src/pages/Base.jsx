@@ -9,6 +9,7 @@ const Base =  React.createClass({
 			<div>
 				<Header/>
 				<NavBar/>
+				{this.props.children}
 			</div>
 		);
 	}
