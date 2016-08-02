@@ -5,8 +5,8 @@ const PhotoComponent = React.createClass({
 	render() {
 		return(
 			<div>
-				<img src={this.props.photo_url}></img>
-				<p>{this.props.photo_title}</p>
+				<img src={this.props.photo_url} className="photos"/>
+				<p className="photoTitle">{this.props.photo_title}</p>
 			</div>
 		);
 	}
