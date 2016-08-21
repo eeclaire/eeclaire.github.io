@@ -4,13 +4,14 @@ div {
 }
 
 .blogDate {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	font-style: italic;
 	margin-top: 10px;
 }
 
 .blogContent {
+	@include text-content;
 	margin-top: 20px;
 }
 

@@ -1,3 +1,8 @@
 @mixin post {
 	margin-top: 100px;
 }
+
+@mixin text-content {
+	margin-left: 5px;
+	margin-right: 5px;
+}
