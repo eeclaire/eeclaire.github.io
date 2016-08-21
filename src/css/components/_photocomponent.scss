@@ -9,6 +9,10 @@ div {
 	max-width: 45%;
 }
 
+.photoPost {
+	@include post
+}
+
 .photoTitle {
-	text-align: center;
+	@include post-title-font;
 }

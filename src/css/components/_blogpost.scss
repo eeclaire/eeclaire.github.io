@@ -1,0 +1,23 @@
+div {
+	width: 100%;
+	margin: auto;
+}
+
+.blogDate {
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.blogContent {
+	margin-top: 20px;
+}
+
+.blogPost {
+	@include post;
+}
+
+.blogTitle {
+	@include post-title-font;
+}
