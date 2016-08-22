@@ -4,7 +4,7 @@ const Resume =  React.createClass({
 	render() {
 		return (
 			<p>
-				Resume goes here.
+				<a href="./static/pdf/CV_Durand_Claire.pdf"	>Resume goes here.</a>
 			</p>
 		);
 	}

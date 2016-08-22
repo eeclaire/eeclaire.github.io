@@ -1,0 +1,23 @@
+div {
+	width: 100%;
+	margin: auto;
+}
+
+.projectDescript {
+	margin-top: 4px;
+}
+
+.projectPhoto {
+	@include photo;
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.projectPost {
+	@include post;
+	text-align: center;
+}
+
+.projectTitle {
+	@include post-title-font;
+}

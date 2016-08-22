@@ -4,13 +4,12 @@ div {
 }
 
 .photos {
-	display: block;
-	margin: 18px auto 4px;
+	@include photo;
 	max-width: 45%;
 }
 
 .photoPost {
-	@include post
+	@include post;
 }
 
 .photoTitle {
