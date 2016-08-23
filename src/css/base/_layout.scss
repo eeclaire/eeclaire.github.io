@@ -5,3 +5,8 @@
 		height: 32px;
 	}
 }
+
+.photos {
+	@include photo;
+	max-width: 45%;
+}

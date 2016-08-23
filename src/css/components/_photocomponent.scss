@@ -3,11 +3,6 @@ div {
 	margin: auto;
 }
 
-.photos {
-	@include photo;
-	max-width: 45%;
-}
-
 .photoDate {
 	@include date-font;
 }

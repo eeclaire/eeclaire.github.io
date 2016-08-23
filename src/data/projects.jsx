@@ -1,7 +1,7 @@
 const projectList = [
 	{
 		"title": "Dan-ial",
-		"image": "https://raw.githubusercontent.com/eeclaire/dan-ial/master/static/gifs/0_zack.gif",
+		"image": "src/img/projects/dan-ial_landing_page.png",
 		"description": "A website for when you need to express your disappointment in someone.",
 		"link": "https://github.com/eeclaire/dan-ial",
 		"id": 1
