@@ -9,7 +9,7 @@ const NavBar =  React.createClass({
 			<nav>
 			  <ul>
 			    <li><Link to="projects">Projects</Link></li>
-			    <li><Link to="resume">Resume</Link></li>
+			    <li><a href="CV_Durand_Claire.pdf">Resume</a></li>
 			    <li><Link to="blog">Blog</Link></li>
 			    <li><Link to="photo">Photo</Link></li>
 			  </ul>

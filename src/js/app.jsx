@@ -7,7 +7,6 @@ import Base from '../pages/Base';
 import Blog from '../pages/Blog';
 import Photo from  '../pages/Photo';
 import Projects from  '../pages/Projects';
-import Resume from  '../pages/Resume';
 
 
 import '../css/style.scss';
@@ -19,7 +18,6 @@ ReactDOM.render(
 			<Route path="blog" component={Blog}/>
 			<Route path="photo" component={Photo}/>
 			<Route path="projects" component={Projects}/>
-			<Route path="resume" component={Resume}/>
 		</Route>
 	</Router>,
 	document.getElementById('container')
