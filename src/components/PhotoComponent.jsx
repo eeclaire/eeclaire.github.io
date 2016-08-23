@@ -7,6 +7,7 @@ const PhotoComponent = React.createClass({
 			<div className="photoPost">
 				<img src={this.props.photo_url} className="photos"/>
 				<p className="photoTitle">{this.props.photo_title}</p>
+				<p className="photoDate">{this.props.photo_date}</p>
 			</div>
 		);
 	}

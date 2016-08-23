@@ -8,8 +8,16 @@ body {
 	font-family: $font-stack;
 }
 
+@mixin date-font {
+	font-size: 18px;
+	text-align: center;
+	font-style: italic;
+}
+
 @mixin post-title-font {
 	font-size: 24px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	text-align: center;
 }
 

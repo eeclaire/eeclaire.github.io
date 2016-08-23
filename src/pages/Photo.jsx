@@ -8,7 +8,7 @@ const Photo =  React.createClass({
 	render() {
 		const photoNodes = photoList.map(photo => {
 			return (
-				<PhotoComponent photo_url={photo.url} photo_title={photo.title} key={photo.id} />
+				<PhotoComponent photo_url={photo.url} photo_title={photo.title} photo_date={photo.date} key={photo.id} />
 			)
 		});
 		return (
