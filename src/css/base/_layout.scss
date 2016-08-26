@@ -3,6 +3,10 @@
 	img {
 		margin-left: 4px;
 		height: 32px;
+		&:hover {
+			opacity: 0.8;
+			filter: alpha(opacity=80);
+		}
 	}
 }
 
