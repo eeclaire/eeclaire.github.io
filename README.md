@@ -10,7 +10,7 @@
 
 ### To Do
 - Resume
-	- [ ] Find best practice for pdf jams
+	- [ ] Find best practice for pdf jams (embed it?)
 - Blog
 	- [ ] Link blog post json to some folder
 	- [ ] Figure out how to render MD?
@@ -18,3 +18,5 @@
 	- [ ] Write one. And format it.
 - Photos
 	- [ ] Add descriptions (f-stop + focus)
+- Projects
+	- [ ] Make each project post a link to project
