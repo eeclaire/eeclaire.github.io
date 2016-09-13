@@ -23,6 +23,11 @@ module.exports = {
 	      	presets: ['react', 'es2015'],
 	      },
 	  }, {
+	  	test: /\.md$/, loader: "html!markdown"
+	  }, {
+            test: /\.json$/,
+            loader: 'json'
+      }, {
 	      // Don't compress svgs, but still include them
 	      test: /\.(svg)/,
 	      loaders: [

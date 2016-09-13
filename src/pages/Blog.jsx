@@ -1,19 +1,19 @@
 import React from 'react';
 
-import BlogPost from '../components/BlogPost'
+import BlogSnippet from '../components/BlogSnippet'
 import blogList from '../data/blogs'
 
 
 const Blog = React.createClass({
 	render() {
-		const blogNodes = blogList.map(blog => {
+		const blogSnippets = blogList.map(blog => {
 			return (
-				<BlogPost key={blog.id} blog_title={blog.title} blog_date={blog.date} blog_content={blog.content} />
+				<BlogSnippet key={blog.id} blog_title={blog.title} blog_date={blog.date} blog_description={blog.description} blog_fileref={blog.fileref} />
 			)
 		});
 		return (
 			<div>
-				{ blogNodes }
+				{ blogSnippets }
 			</div>
 		);
 	}
