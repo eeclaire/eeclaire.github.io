@@ -12,7 +12,7 @@ const Blog = React.createClass({
 			)
 		});
 		return (
-			<div>
+			<div className="text-content">
 				{ blogSnippets }
 			</div>
 		);

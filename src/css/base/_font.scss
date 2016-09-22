@@ -40,6 +40,15 @@ body {
 	}
 }
 
+a {
+	color: black;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 nav {
 	display:block;
 	font-size: 16px;
