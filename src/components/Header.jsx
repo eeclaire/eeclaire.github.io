@@ -18,7 +18,7 @@ const Header = React.createClass({
 						<a href="https://github.com/eeclaire">
 							<img src={githubIcon} />
 						</a>
-						<a href="https://twitter.com/notfrenchclaire">
+						<a href="https://twitter.com/_eeclaire">
 							<img src={twitterIcon} />
 						</a>
 					</span>
