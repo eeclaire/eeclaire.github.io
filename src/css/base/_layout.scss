@@ -21,3 +21,6 @@
 	position: relative;
 }
 
+.text-content-markdown {
+	@include text-content-font;
+}

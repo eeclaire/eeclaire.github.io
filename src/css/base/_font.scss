@@ -21,6 +21,19 @@ body {
 	text-align: center;
 }
 
+@mixin text-content-font{
+	color: #333;
+	line-height: 1.5;
+	word-wrap: break-word;
+	a {
+		color: #4078c0;
+  		text-decoration: none;
+  		&:hover {
+  			text-decoration: underline;
+  		}
+	}
+}
+
 #title {
 	border-bottom: 1px solid #555;
 	font-size: 40px;
