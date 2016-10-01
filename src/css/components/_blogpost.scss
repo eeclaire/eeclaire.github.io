@@ -7,6 +7,11 @@ div {
 	@include date-font;
 }
 
+
+.blogDescription {
+	margin-top: 10px;
+}
+
 .blogContent {
 	@include text-content;
 	margin-top: 20px;
@@ -14,6 +19,7 @@ div {
 
 .blogPost {
 	@include post;
+	margin-top: 10px;
 }
 
 .blogTitle {

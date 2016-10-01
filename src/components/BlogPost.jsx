@@ -8,7 +8,7 @@ const BlogPost = React.createClass({
 	//},
 	render() {
 		var fileref = this.props.params.value;
-		var html = require("html!markdown!../data/blogposts/"+fileref);
+		var html = require("../data/blogposts/"+fileref);
 		console.log(html)
 		return(
 			<div className="markdown-body" dangerouslySetInnerHTML={{ __html: html }}>

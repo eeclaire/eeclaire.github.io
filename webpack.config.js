@@ -23,7 +23,7 @@ module.exports = {
 	      	presets: ['react', 'es2015'],
 	      },
 	  }, {
-	  	test: /\.md$/, loader: "html!markdown"
+	  	test: /\.md$/, loader: "html!markdown?gfm=false"
 	  }, {
             test: /\.json$/,
             loader: 'json'

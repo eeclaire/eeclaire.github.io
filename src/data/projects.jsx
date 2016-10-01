@@ -12,6 +12,13 @@ const projectList = [
 		"description": "A website for when you need to express your disappointment in someone.",
 		"link": "https://github.com/eeclaire/dan-ial",
 		"id": 2
+	},
+	{
+		"title": "Color visualization",
+		"image": "src/img/projects/mountains_color.png",
+		"description": "Using Clarifai's color recognition model to explore the various colors that make up an image.",
+		"link": "https://github.com/eeclaire/color-visual",
+		"id": 3
 	}
 ];
 
