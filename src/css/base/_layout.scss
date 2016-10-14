@@ -24,3 +24,12 @@
 .text-content-markdown {
 	@include text-content-font;
 }
+
+#hullo {
+	display: inline-block;
+	font-size: 24px;
+	margin-right: 20%;
+    margin-top: 150px;
+    position: absolute;
+    right: 0px;
+}

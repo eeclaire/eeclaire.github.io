@@ -10,17 +10,33 @@ I was recently asked whether it's possible to obtain text from an image - in thi
 * tesseract-ocr
 * pytesseract 0.1.6
 * OpenCV 2
-* PIL
+* Pillow (a maintained fork of PIL)
 
-I used Python 2.7 (ADD IN WHERE YOU CAN GET THAT) and the [pytesseract wrapper](https://pypi.python.org/pypi/pytesseract/0.1). Note that you still need to install tesseract.
+I used Python 2.7. In order to accomplish the actual character recognition, I used [pytesseract wrapper](https://pypi.python.org/pypi/pytesseract/0.1). But you need to install tesseract ocr before you can handle the pytesseract wrapper. OpenCV2 and Pillow were used in order to perform preprocessing on the image in order to prep it for the character recognition.
 
-Since I was working with Mac OS X and have homebrew, I could just type in
+Since I was working with Mac OS X and I could just use homebrew to install tesseract-ocr as shown
+</br>
 ```
 $ brew install tesseract
 ```
-but there are more installation instructions [here](https://github.com/tesseract-ocr/tesseract/wiki#installation) if you're working wiht Linux or Windows. Note that in this blog post I'll be using "$" to indicated commands that can be entered into your terminal.
+</br>
+There are more installation instructions [here](https://github.com/tesseract-ocr/tesseract/wiki#installation) if you're working wiht Linux or Windows. Note that in this blog post I'll be using "$" to indicated commands that can be entered into your terminal.
 
 Once that's done, I can use Python's package manager to install the wrapper pytesseract with
+</br>
 ```
-$ pip install pytesseract
+$ pip install Pillow
 ```
+</br>
+Install OpenCV2 either using homebrew (if you're using Mac OSX) or from source (if you're using Linux). You can install PIL using the Python package manager with
+</br>
+```
+$ pip install Pillow
+```
+</br>
+Once you've got that, you're ready to go!
+
+### Preprocessing
+Sure, you can just run the tesseract ocr on the original image, but you might not get the kind of results you could easily get with just a little bit of preprocessing.
+
+You can read in the image using the `cv2.imread()` function.
