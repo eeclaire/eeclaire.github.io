@@ -1,12 +1,17 @@
-const  webpack = require('webpack');
+const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const precss = require('precss');
 const autoprefixer = require('autoprefixer');
+const path = require('path');
 
 module.exports = {
-	entry: './src/js/app.jsx',
+	context: path.join(__dirname, './src'),
+	entry: { 
+		jsx: './js/app.jsx',
+		html: './index.html' 
+	},
 	output: {
-		path: './static',
+		path: path.join(__dirname, './static'),
 		filename: 'app.js'
 	},
 	resolve: {
@@ -23,6 +28,9 @@ module.exports = {
 	      	presets: ['react', 'es2015'],
 	      },
 	  }, {
+        test: /\.html$/,
+        loader: 'file?name=[name].[ext]'
+      }, {
 	  	test: /\.md$/, loader: "html!markdown?gfm=false"
 	  }, {
             test: /\.json$/,
@@ -63,5 +71,10 @@ module.exports = {
 		allChunks: true,
 	})
 	],
-	watch: true
+	//watch: true,
+
+	devServer:{
+		contentBase:'./src',
+		hot:true
+	}
 }

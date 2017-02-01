@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router';
 
 
-var githubIcon = './static/' + require('../img/github.svg');
-var twitterIcon = './static/' + require('../img/twitter.svg');
+var githubIcon = require('../img/github.svg');
+var twitterIcon = require('../img/twitter.svg');
 
 const Header = React.createClass({
 	render() {

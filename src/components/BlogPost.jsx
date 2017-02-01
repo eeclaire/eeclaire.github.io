@@ -1,5 +1,5 @@
 import React from 'react';
-import markdown from 'markdown';
+//import markdown from 'markdown';
 
 const BlogPost = React.createClass({
 	//componentDidMount(){
