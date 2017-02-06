@@ -1,7 +1,7 @@
 const projectList = [
 	{
 		"title": "Color my www",
-		"image": "./img/projects/color-my-www_example.png",
+		"image": "./src/img/projects/color-my-www_example.png",
 		"description": "Intelligent website color choices",
 		"link": "https://github.com/eeclaire/color-my-www",
 		"id": 1
