@@ -5,10 +5,9 @@ const autoprefixer = require('autoprefixer');
 const path = require('path');
 
 module.exports = {
-	context: path.join(__dirname, './src'),
 	entry: { 
-		jsx: './js/app.jsx',
-		html: './index.html' 
+		jsx: './src/js/app.jsx',
+		html: './src/index.html' 
 	},
 	output: {
 		path: path.join(__dirname, './static'),
@@ -74,7 +73,7 @@ module.exports = {
 	//watch: true,
 
 	devServer:{
-		contentBase:'./src',
+		contentBase:'.',
 		hot:true
 	}
 }
