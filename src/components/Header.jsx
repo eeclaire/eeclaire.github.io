@@ -1,10 +1,5 @@
 import React from 'react';
-
 import { Link } from 'react-router';
-
-
-var githubIcon = require('../img/github.svg');
-var twitterIcon = require('../img/twitter.svg');
 
 const Header = React.createClass({
 	render() {
@@ -16,10 +11,10 @@ const Header = React.createClass({
 					</Link>
 					<span className="icons">
 						<a href="https://github.com/eeclaire">
-							<img src={githubIcon} />
+							<img src="/src/img/github.svg" />
 						</a>
 						<a href="https://twitter.com/_eeclaire">
-							<img src={twitterIcon} />
+							<img src="/src/img/twitter.svg" />
 						</a>
 					</span>
 				</h1>

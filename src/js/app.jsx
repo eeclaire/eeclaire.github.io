@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, IndexRoute, Route, Link, browserHistory } from 'react-router';
+import {Router, IndexRoute, Route, hashHistory } from 'react-router';
 import ReactDOM from 'react-dom';
 
 import About from  '../pages/About';
@@ -12,7 +12,7 @@ import Projects from  '../pages/Projects';
 import '../css/style.scss';
 
 ReactDOM.render(
-	<Router history={browserHistory}>
+	<Router history={hashHistory}>
 		<Route path="/" component={Base}>
 			<IndexRoute component={About}/>
 			<Route path="blog" component={Blog}/>

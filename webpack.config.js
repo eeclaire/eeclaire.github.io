@@ -1,80 +1,55 @@
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const precss = require('precss');
-const autoprefixer = require('autoprefixer');
 const path = require('path');
 
 module.exports = {
-	entry: { 
-		jsx: './src/js/app.jsx',
-		html: './src/index.html' 
-	},
-	output: {
-		path: path.join(__dirname, './static'),
-		publicPath: './src/',
-		filename: 'app.js'
-	},
-	resolve: {
-		extensions: ['', '.js', '.jsx', '.scss']
-	},
-	module: {
-		loaders: [{
-	      // Process all .js files w/ babel-loader
-	      test: /\.jsx?$/,
-	      exclude: /node_modules/,
-	      loader: 'babel',
-	      query: {
-	      	cacheDirectory: true,
-	      	presets: ['react', 'es2015'],
-	      },
-	  }, {
-        test: /\.html$/,
-        loader: 'file?name=[name].[ext]'
-      }, {
-	  	test: /\.md$/, loader: "html!markdown?gfm=false"
-	  }, {
-            test: /\.json$/,
-            loader: 'json'
-      }, {
-	      // Don't compress svgs, but still include them
-	      test: /\.(svg)/,
-	      loaders: [
-	      'file-loader?name=[path][name].[ext]',
-	      ],
-	  }, {
-	      // Compress images with image-webpack, a wrapper around imagemin
-	      test: /\.(png|jgp|gif)/,
-	      loaders: [
-	      'file-loader?name=[path][name].[ext]',
-	      'image-webpack-loader?optimizationLevel=5&interlaced=false'
-	      ],
-	  }, {
-	      // Parse .scss files with node-sass & then autoprefix them, then make it css
-	      test: /\.scss?$/,
-	      loader: ExtractTextPlugin.extract('css-loader!postcss-loader!sass-loader'),
-	  }],
-	},
-	postcss: function() {
-		return [precss, autoprefixer];
-	},
-	plugins: [
-	new webpack.optimize.UglifyJsPlugin({
-		compress: {
-			warnings: false,
-		},
-		output: {
-			comments: false,
-		},
-	}),
+    entry: {
+        jsx: './src/js/app.jsx'
+    },
+    output: {
+        path: path.join(__dirname, './static'),
+        filename: 'app.js'
+    },
+    resolve: {
+        extensions: ['*', '.js', '.jsx', '.scss']
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    cacheDirectory: true,
+                    presets: ['react', 'latest'],
+                }
+            }, {
+                test: /\.md$/, loader: 'html-loader',
+                options: {
+                    markdown: true,
+                    gfm: false
+                }
+            }, {
+                test: /\.json$/,
+                loader: 'json-loader'
+            }, {
+                // Parse .scss files with node-sass & then autoprefix them, then make it css
+                test: /\.scss?$/,
+                loader: ExtractTextPlugin.extract({
+                    use: [
+                        {loader: 'css-loader'},
+                        {loader: 'postcss-loader'},
+                        {loader: 'sass-loader'}
+                    ],
 
-	new ExtractTextPlugin('main.css', {
-		allChunks: true,
-	})
-	],
-	//watch: true,
-
-	devServer:{
-		contentBase:'.',
-		hot:true
-	}
-}
+                }),
+            }],
+    },
+    plugins: [
+        new ExtractTextPlugin('main.css')
+    ],
+    devServer: {
+        contentBase: '.',
+        hot: true
+    }
+};
