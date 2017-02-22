@@ -1,9 +1,14 @@
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
-const marked = require('marked');
 
 // markdown to html
+const marked = require('marked');
+marked.setOptions({
+    gfm: true,
+    pedantic: true,
+    sanitize: true
+})
 const renderer = new marked.Renderer();
 console.log(renderer)
 
@@ -38,8 +43,6 @@ module.exports = {
                 {
                     loader: "markdown-loader",
                     options: {
-                        pedantic: true,
-                        gfm: true,
                         renderer
                     }
                 }
