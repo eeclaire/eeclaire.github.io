@@ -1,13 +1,19 @@
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
+const marked = require('marked');
+
+// markdown to html
+const renderer = new marked.Renderer();
+console.log(renderer)
+
 
 module.exports = {
     entry: {
-        jsx: './src/js/app.jsx'
+        jsx: path.resolve(__dirname, 'src','js','app.jsx')
     },
     output: {
-        path: path.join(__dirname, './static'),
+        path: path.join(__dirname, 'static'),
         filename: 'app.js'
     },
     resolve: {
@@ -24,11 +30,20 @@ module.exports = {
                     presets: ['react', 'latest'],
                 }
             }, {
-                test: /\.md$/, loader: 'html-loader',
-                options: {
-                    markdown: true,
-                    gfm: false
+                test: /\.md$/,
+                use: [
+                {
+                    loader: "html-loader"
+                },
+                {
+                    loader: "markdown-loader",
+                    options: {
+                        pedantic: true,
+                        gfm: true,
+                        renderer
+                    }
                 }
+                ]
             }, {
                 test: /\.json$/,
                 loader: 'json-loader'

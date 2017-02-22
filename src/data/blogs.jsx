@@ -1,9 +1,9 @@
 const blogList = [
 	{
-		"title": "Using Tesseract and Python for OCR",
-		"date": "August 19th, 2016",
-		"description": "In which I describe how I used tesseract ocr, Python, and OpenCV to read text from Snapchat stories.",
-		"fileref":"2016-08-31-tesseract-ocr.md",
+		"title": "Building a Markov Chain",
+		"date": "February 9th, 2017",
+		"description": "In which I describe how I built a Markov Chain.",
+		"fileref":"2017-02-09-building-a-markov-chain.md",
 		"id":1
 	}
 ];
