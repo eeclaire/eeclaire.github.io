@@ -13,7 +13,7 @@ sentences = text_raw.lower().replace('.', ' . ').split()
 Cool. Now my “Hello world. Goodnight moon.” string ends up like [“hello”, “world”, “.”, “goodnight”, “moon”, “.”] which feels pretty good. I’m ready to Markov the Chain out of this list!
 
 ### Building the Markov Chain
-Markov Chains are basically a directed graph where the edges have a weight that is inversely proportional to their probability (as long as I remember how graphs work). There are a few different ways of representing graphs, but I’m going to go with an adjacency list, and because I’m in Python, I’m going to use a dictionary! :tada:  <span>&#x1F389</span>
+Markov Chains are basically a directed graph where the edges have a weight that is inversely proportional to their probability (as long as I remember how graphs work). There are a few different ways of representing graphs, but I’m going to go with an adjacency list, and because I’m in Python, I’m going to use a dictionary! :tada:  
 What’s more, I’m going to make a Markov class, because I want to practice my Object-Oriented Programming skills! So I create my class, and upon initializing it, I’m going to give it a dictionary attribute, which, in the example below, I call chain.
 ```
 class Markov:

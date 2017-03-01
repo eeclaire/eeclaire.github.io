@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 257);
+/******/ 	return __webpack_require__(__webpack_require__.s = 258);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -791,7 +791,7 @@ exports.__esModule = true;
 exports.default = routerWarning;
 exports._resetWarned = _resetWarned;
 
-var _warning = __webpack_require__(255);
+var _warning = __webpack_require__(256);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -1244,7 +1244,7 @@ module.exports = ReactComponentTreeHook;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(179);
+  var ReactDebugTool = __webpack_require__(180);
   debugTool = ReactDebugTool;
 }
 
@@ -3023,7 +3023,7 @@ module.exports = DOMLazyTree;
 
 
 
-var ReactRef = __webpack_require__(193);
+var ReactRef = __webpack_require__(194);
 var ReactInstrumentation = __webpack_require__(11);
 
 var warning = __webpack_require__(2);
@@ -3418,16 +3418,16 @@ function formatPattern(pattern, params) {
 
 var _assign = __webpack_require__(5);
 
-var ReactChildren = __webpack_require__(245);
+var ReactChildren = __webpack_require__(246);
 var ReactComponent = __webpack_require__(67);
-var ReactPureComponent = __webpack_require__(249);
-var ReactClass = __webpack_require__(246);
-var ReactDOMFactories = __webpack_require__(247);
+var ReactPureComponent = __webpack_require__(250);
+var ReactClass = __webpack_require__(247);
+var ReactDOMFactories = __webpack_require__(248);
 var ReactElement = __webpack_require__(22);
-var ReactPropTypes = __webpack_require__(248);
-var ReactVersion = __webpack_require__(250);
+var ReactPropTypes = __webpack_require__(249);
+var ReactVersion = __webpack_require__(251);
 
-var onlyChild = __webpack_require__(252);
+var onlyChild = __webpack_require__(253);
 var warning = __webpack_require__(2);
 
 var createElement = ReactElement.createElement;
@@ -4104,7 +4104,7 @@ Object.defineProperty(exports, 'formatPattern', {
   }
 });
 
-var _Router2 = __webpack_require__(229);
+var _Router2 = __webpack_require__(230);
 
 var _Router3 = _interopRequireDefault(_Router2);
 
@@ -4112,19 +4112,19 @@ var _Link2 = __webpack_require__(101);
 
 var _Link3 = _interopRequireDefault(_Link2);
 
-var _IndexLink2 = __webpack_require__(223);
+var _IndexLink2 = __webpack_require__(224);
 
 var _IndexLink3 = _interopRequireDefault(_IndexLink2);
 
-var _withRouter2 = __webpack_require__(242);
+var _withRouter2 = __webpack_require__(243);
 
 var _withRouter3 = _interopRequireDefault(_withRouter2);
 
-var _IndexRedirect2 = __webpack_require__(224);
+var _IndexRedirect2 = __webpack_require__(225);
 
 var _IndexRedirect3 = _interopRequireDefault(_IndexRedirect2);
 
-var _IndexRoute2 = __webpack_require__(225);
+var _IndexRoute2 = __webpack_require__(226);
 
 var _IndexRoute3 = _interopRequireDefault(_IndexRoute2);
 
@@ -4132,23 +4132,23 @@ var _Redirect2 = __webpack_require__(102);
 
 var _Redirect3 = _interopRequireDefault(_Redirect2);
 
-var _Route2 = __webpack_require__(227);
+var _Route2 = __webpack_require__(228);
 
 var _Route3 = _interopRequireDefault(_Route2);
 
-var _History2 = __webpack_require__(222);
+var _History2 = __webpack_require__(223);
 
 var _History3 = _interopRequireDefault(_History2);
 
-var _Lifecycle2 = __webpack_require__(226);
+var _Lifecycle2 = __webpack_require__(227);
 
 var _Lifecycle3 = _interopRequireDefault(_Lifecycle2);
 
-var _RouteContext2 = __webpack_require__(228);
+var _RouteContext2 = __webpack_require__(229);
 
 var _RouteContext3 = _interopRequireDefault(_RouteContext2);
 
-var _useRoutes2 = __webpack_require__(241);
+var _useRoutes2 = __webpack_require__(242);
 
 var _useRoutes3 = _interopRequireDefault(_useRoutes2);
 
@@ -4156,13 +4156,13 @@ var _RouterContext2 = __webpack_require__(43);
 
 var _RouterContext3 = _interopRequireDefault(_RouterContext2);
 
-var _RoutingContext2 = __webpack_require__(230);
+var _RoutingContext2 = __webpack_require__(231);
 
 var _RoutingContext3 = _interopRequireDefault(_RoutingContext2);
 
 var _PropTypes3 = _interopRequireDefault(_PropTypes2);
 
-var _match2 = __webpack_require__(239);
+var _match2 = __webpack_require__(240);
 
 var _match3 = _interopRequireDefault(_match2);
 
@@ -4170,15 +4170,15 @@ var _useRouterHistory2 = __webpack_require__(107);
 
 var _useRouterHistory3 = _interopRequireDefault(_useRouterHistory2);
 
-var _applyRouterMiddleware2 = __webpack_require__(232);
+var _applyRouterMiddleware2 = __webpack_require__(233);
 
 var _applyRouterMiddleware3 = _interopRequireDefault(_applyRouterMiddleware2);
 
-var _browserHistory2 = __webpack_require__(233);
+var _browserHistory2 = __webpack_require__(234);
 
 var _browserHistory3 = _interopRequireDefault(_browserHistory2);
 
-var _hashHistory2 = __webpack_require__(237);
+var _hashHistory2 = __webpack_require__(238);
 
 var _hashHistory3 = _interopRequireDefault(_hashHistory2);
 
@@ -4698,10 +4698,10 @@ module.exports = EventPluginRegistry;
 var _assign = __webpack_require__(5);
 
 var EventPluginRegistry = __webpack_require__(37);
-var ReactEventEmitterMixin = __webpack_require__(183);
+var ReactEventEmitterMixin = __webpack_require__(184);
 var ViewportMetrics = __webpack_require__(92);
 
-var getVendorPrefixedEventName = __webpack_require__(219);
+var getVendorPrefixedEventName = __webpack_require__(220);
 var isEventSupported = __webpack_require__(61);
 
 /**
@@ -5575,7 +5575,7 @@ var _deprecateObjectProperties = __webpack_require__(44);
 
 var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 
-var _getRouteParams = __webpack_require__(236);
+var _getRouteParams = __webpack_require__(237);
 
 var _getRouteParams2 = _interopRequireDefault(_getRouteParams);
 
@@ -6024,7 +6024,7 @@ module.exports = exports['default'];
 
 
 var DOMLazyTree = __webpack_require__(25);
-var Danger = __webpack_require__(156);
+var Danger = __webpack_require__(157);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(11);
 
@@ -7965,21 +7965,21 @@ var _routerWarning = __webpack_require__(8);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _computeChangedRoutes2 = __webpack_require__(234);
+var _computeChangedRoutes2 = __webpack_require__(235);
 
 var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
 
-var _TransitionUtils = __webpack_require__(231);
+var _TransitionUtils = __webpack_require__(232);
 
-var _isActive2 = __webpack_require__(238);
+var _isActive2 = __webpack_require__(239);
 
 var _isActive3 = _interopRequireDefault(_isActive2);
 
-var _getComponents = __webpack_require__(235);
+var _getComponents = __webpack_require__(236);
 
 var _getComponents2 = _interopRequireDefault(_getComponents);
 
-var _matchRoutes = __webpack_require__(240);
+var _matchRoutes = __webpack_require__(241);
 
 var _matchRoutes2 = _interopRequireDefault(_matchRoutes);
 
@@ -9893,7 +9893,7 @@ var DOMProperty = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(11);
 
-var quoteAttributeValueForBrowser = __webpack_require__(220);
+var quoteAttributeValueForBrowser = __webpack_require__(221);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -10497,7 +10497,7 @@ module.exports = ReactHostComponent;
 
 
 
-var ReactDOMSelection = __webpack_require__(174);
+var ReactDOMSelection = __webpack_require__(175);
 
 var containsNode = __webpack_require__(132);
 var focusNode = __webpack_require__(73);
@@ -10634,12 +10634,12 @@ var React = __webpack_require__(28);
 var ReactBrowserEventEmitter = __webpack_require__(38);
 var ReactCurrentOwner = __webpack_require__(15);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMContainerInfo = __webpack_require__(166);
-var ReactDOMFeatureFlags = __webpack_require__(168);
+var ReactDOMContainerInfo = __webpack_require__(167);
+var ReactDOMFeatureFlags = __webpack_require__(169);
 var ReactFeatureFlags = __webpack_require__(86);
 var ReactInstanceMap = __webpack_require__(32);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactMarkupChecksum = __webpack_require__(188);
+var ReactMarkupChecksum = __webpack_require__(189);
 var ReactReconciler = __webpack_require__(26);
 var ReactUpdateQueue = __webpack_require__(56);
 var ReactUpdates = __webpack_require__(14);
@@ -11446,11 +11446,11 @@ module.exports = getTextContentAccessor;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(5);
 
-var ReactCompositeComponent = __webpack_require__(163);
+var ReactCompositeComponent = __webpack_require__(164);
 var ReactEmptyComponent = __webpack_require__(85);
 var ReactHostComponent = __webpack_require__(87);
 
-var getNextDebugID = __webpack_require__(217);
+var getNextDebugID = __webpack_require__(218);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -11693,9 +11693,9 @@ module.exports = setTextContent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(15);
-var REACT_ELEMENT_TYPE = __webpack_require__(182);
+var REACT_ELEMENT_TYPE = __webpack_require__(183);
 
-var getIteratorFn = __webpack_require__(216);
+var getIteratorFn = __webpack_require__(217);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(52);
 var warning = __webpack_require__(2);
@@ -12387,7 +12387,7 @@ var ReactCurrentOwner = __webpack_require__(15);
 var ReactComponentTreeHook = __webpack_require__(10);
 var ReactElement = __webpack_require__(22);
 
-var checkReactTypeSpec = __webpack_require__(251);
+var checkReactTypeSpec = __webpack_require__(252);
 
 var canDefineProperty = __webpack_require__(70);
 var getIteratorFn = __webpack_require__(71);
@@ -12649,7 +12649,7 @@ var BlogPost = _react2.default.createClass({
 	//},
 	render: function render() {
 		var fileref = this.props.params.value;
-		var html = __webpack_require__(256)("./" + fileref);
+		var html = __webpack_require__(257)("./" + fileref);
 		console.log(html);
 		return _react2.default.createElement("div", { className: "markdown-body", dangerouslySetInnerHTML: { __html: html } });
 	}
@@ -12909,7 +12909,7 @@ exports.default = Projects;
 "use strict";
 
 
-module.exports = __webpack_require__(164);
+module.exports = __webpack_require__(165);
 
 
 /***/ }),
@@ -13188,6 +13188,12 @@ var blogList = [{
 	"description": "In which I describe how I built a Markov Chain.",
 	"fileref": "2017-02-09-building-a-markov-chain.md",
 	"id": 1
+}, {
+	"title": "Talking to Strangers is the Least of Your Worries",
+	"date": "February 28th, 2017",
+	"description": "In which I go on a terrified rant about the shortcomings of HTTPS (and why it's still better than HTTP).",
+	"fileref": "2017-02-28-talking-to-strangers-is-the-least-of-your-worries-https.md",
+	"id": 2
 }];
 
 exports.default = blogList;
@@ -14637,7 +14643,7 @@ module.exports = exports['default'];
 
 "use strict";
 
-var strictUriEncode = __webpack_require__(254);
+var strictUriEncode = __webpack_require__(255);
 
 exports.extract = function (str) {
 	return str.split('?')[1] || '';
@@ -14765,10 +14771,16 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 /* 150 */
 /***/ (function(module, exports) {
 
-module.exports = "<p>During my hackNY interview last year, I was asked about Markov Chains. Ever since that, I’ve wanted to implement a Markov-Chain from scratch. And this past Friday, I finally did!<br>A Markov Chain can be described as a set of states. Moving between each state has a particular probability. A sequence of states is created by moving from one state to another according to the probabilities that link the current state to the other states in the set. The probabilities from one state are conditionally independent from those in past states. In other words, if I move from state A to state B, the probability of moving from B to state C is not affected by my past in state A.<br>I recommend checking out <a href=\"http://setosa.io/ev/markov-chains/\">http://setosa.io/ev/markov-chains/</a> if you’re unfamiliar with how Markov Chains work!</p>\n<p>I split my work up into “Pre-processing the text”, “Building the Markov Chain Graph”, and “Traversing the Markov Chain.” </p>\n<h3 id=\"pre-processing\">Pre-processing</h3>\n<p>It’s easier to operate with a list of words than with a string of characters, so before I can do anything with the Markov Chain itself, I need to do some pre-processing. Since I’m using Python, it’s pretty easy: all I have to do is call the <code>split()</code> method on the input string. By default this will split up the string using space as a delimiter. The string “Hello world. Goodnight moon.” becomes [“Hello”, “world.”, “Goodnight”, “moon.”].<br>However I’m worried about having capital letters in the middle of a sentence, and I’d really like to be able to use periods as an end-of-sentence marker. So, before splitting my string, I convert the entire thing to lowercase using the <code>.lower()</code> method and I add spaces around periods using replace to make sure they’ll be isolated. The command ultimately looks like</p>\n<pre><code>sentences = text_raw.lower().replace(&#39;.&#39;, &#39; . &#39;).split()\n</code></pre><p>Cool. Now my “Hello world. Goodnight moon.” string ends up like [“hello”, “world”, “.”, “goodnight”, “moon”, “.”] which feels pretty good. I’m ready to Markov the Chain out of this list!</p>\n<h3 id=\"building-the-markov-chain\">Building the Markov Chain</h3>\n<p>Markov Chains are basically a directed graph where the edges have a weight that is inversely proportional to their probability (as long as I remember how graphs work). There are a few different ways of representing graphs, but I’m going to go with an adjacency list, and because I’m in Python, I’m going to use a dictionary! :tada:  &lt;span&gt;&amp;#x1F389&lt;/span&gt;\nWhat’s more, I’m going to make a Markov class, because I want to practice my Object-Oriented Programming skills! So I create my class, and upon initializing it, I’m going to give it a dictionary attribute, which, in the example below, I call chain.</p>\n<pre><code>class Markov:\n    def __init__(self):\n        self.chain = {}\n</code></pre><p>Eyyy! Each key in this dictionary should be a possible current word, and each value will be a list of words that possibly follow this current word. So if I have the text “Goodnight room. Goodnight moon.” my dictionary should look like</p>\n<pre><code>{\n“goodnight”: [“room”, “moon”],\n“room”: [“.”],\n“moon”: [“.”],\n“.”: [“goodnight”]\n}\n</code></pre><p>Notice that as we decided earlier, the period counts as its own word. This is useful, because not all words make sense at the beginning of a sentence! By keeping track of words that follow a period, we can maintain some kind of grammatical logic. Heck yeah sentences!<br>Now that I’ve decided that, I just have to go through the list of words and add them all!\nFirst I’m going to practice adding words one at a time. Assuming I’m given the current word and the next word in the text (such as “goodnight” and “moon”), I can check if the current word already exists as a key in the dictionary. If it does, I can add the next word to the list of possible following words, and if it doesn’t, I can create that key-value pair. In the following code sample, the <code>.get()</code> method returns None if the “word” key doesn’t exist yet, so using that is an easy and clean way of checking whether I have that word in the dictionary yet.</p>\n<pre><code>def add_next_word(self, word, next_word):\n    if self.chain.get(word) is None:\n        self.chain[word] = [next_word]\n    else:\n        self.chain[word].append(next_word)\n</code></pre><p>This is a naive implementation where I keep adding words to the list of possible next words, regardless of whether I’ve seen them before or not, in order to maintain some sort of probability. It’s not super memory efficient, but I don’t like the idea of re-calculating the probability for each word in the list of possible next words <em>every time</em> I add a word, so YOLO.<br>In any case, since I have the logic to add a pair of words into my dictionary, now I can iterate through a full text and insert all of it into my dictionary to form a graph! Since I’ve decided periods should be the marker before the first word in a sentence, so I’m going to call my add_next_word function with it:</p>\n<pre><code>self.add_next_word(&#39;.&#39;, word_list[0])\n</code></pre><p>After that, I’m free to iterate through the rest of the text. I’m going to stop my loop before the last word, which should be a period by the way, so that I don’t get an index error when I try to access the last “next word.” So here we go!</p>\n<pre><code>def add_text(self, word_list):\n    self.add_next_word(&#39;.&#39;, word_list[0])   # sentences begin after a &#39;.&#39;\n    for i in range(0, len(word_list) - 1):\n        self.add_next_word(word_list[i], word_list[i + 1])\n</code></pre><p>Cool beans! And with these two functions, I can populate a Markov Chain! Next up is traversing it in order to generate sentences.</p>\n<h3 id=\"traversing-the-markov-chain\">Traversing the Markov Chain</h3>\n<p>So we created this graph. But it’s pretty useless unless I’m actually getting something out of it. The good news is that traversing the graph is pretty easy. I can give it a starting point, and <em>let it run wild</em>.  Basically, if I specify a starting word, I can make a random selection from the list of next possible words using <code>random.choice()</code>, then set that word as my current word, and pick a word from <em>its</em>  list of next possible words. So if I pick up my example dictionary from earlier</p>\n<pre><code>{\n“goodnight”: [“room”, “moon”],\n“room”: [“.”],\n“moon”: [“.”],\n“.”: [“goodnight”]\n}\n</code></pre><p>I would start with “.”. Since “goodnight” is the only word in that list, “goodnight” becomes the new current word. So now I’ll have to randomly pick from “room” and “moon”, and so on and so forth.<br>In code world, this looks a little like the following, but with a loop that repeats the logic</p>\n<pre><code>next_word = random.choice(self.chain[current_word])\ngenerated_text = generated_text + “ “ + next_word\ncurrent_word = next_word\n</code></pre><p>However, this could easily go on forever. So I want to create some kind of limit on my loop to indicate where I want sentences to end. One logical place is to end a sentence is a period. So if I come across a period, I can append it to the text and return the sentence I’ve created. Like so</p>\n<pre><code>next_word = random.choice(self.chain[current_word])\n            if next_word == &#39;.&#39;:\n                generated_text = generated_text + &quot;.&quot;\n                return generated_text\n</code></pre><p>But I don’t want to just rely on happening across a “.” to end a sentence because long sentences can get really tedious to parse, especially when they’re not saying anything particularly meaningful and maybe you’re wondering where they’re going with this and okay you get the message.<br>So maybe I want to stop traversing through the graph after <code>n</code> words. I can institute a word_count that I iterate after every word I add and control my loop using that. If I get past those <code>n</code> words, then I can just say “close enough”, throw a period at the end of the text, and return it. This might look a little like</p>\n<pre><code>while(word_count &lt; n):\n    next_word = random.choice(self.chain[current_word])\n    if next_word == &#39;.&#39;:\n        generated_text = generated_text + &quot;.&quot;\n        return generated_text\n    else:\n        generated_text = generated_text + &quot; &quot; + next_word\n        current_word = next_word\n        word_count += 1\n\n# Make sure each sentence ends with a period\nif generated_text[-1] != &#39;.&#39;:\n    generated_text = generated_text + &#39;.&#39;\n\nreturn generated_text\n</code></pre><p>I do want to make sure that the starting point for each sentence is the period. Because I want to make sure to start my sentence with a word that has started a sentence before (who has leadership experience, if you will). I’m going to count that period as my first word, because I like to cheat.<br>After adding that into my code, I get a sentence-generating method for my Markov Chain that looks like this.</p>\n<pre><code>def generate_sentence(self, n):\n    # Come up with the first word by using a possible word after a period\n    current_word = random.choice(self.chain[&#39;.&#39;])\n    generated_text = current_word\n    word_count = 1\n\n    # Iterate through the markov chain until you hit a period\n    # or the max number of words in a sentence\n    while(word_count &lt; n):\n        next_word = random.choice(self.chain[current_word])\n        if next_word == &#39;.&#39;:\n            generated_text = generated_text + &quot;.&quot;\n            return generated_text\n        else:\n            generated_text = generated_text + &quot; &quot; + next_word\n            current_word = next_word\n            word_count += 1\n\n    # Make sure each sentence ends with a period\n    if generated_text[-1] != &#39;.&#39;:\n        generated_text = generated_text + &#39;.&#39;\n\n    return generated_text\n</code></pre><p>Now that I’ve got all of this, I can write a script that reads in some text, instantiates my Markov Chain class, and calls in a little function that will call the generate_sentence method an <code>n_sentences</code> number of times. I did this with the first chapter of 1984 by Georges Orwell, and it’s generated some of the following paragraphs:</p>\n<p><em>10 max words per sentence and 5 sentences</em><br>“people simply an electric current was nearly a place in. the shut window-pane, the little sandy-haired woman who seemed to. you were bound to one of his face on with. actually flinched backwards in the telescreen was a tremulous murmur. a voluntary act of children with a thick neck.”</p>\n<p><em>10 max words per sentence and 10 sentences</em><br>“for a thick, quarto-sized blank book was illegal, since he. it was one seemed to tear out of the book. with the thing of places away about three other incident. it not turned pink and the ministry of boiled cabbage. their seats but childish handwriting as the future, for perhaps. but the screen. it was merely to him through a kind that the. better than before, moreover, so completely did happen winston had. it had any pretence was the thought police. the orators of about that every record of manner.”</p>\n<p><em>20 max words per sentence and 10 sentences</em><br>“he had never crossed his back the thought her arms could you. there was demanding the people, less. you saw the hand. at o&#39;brien was impossible to pin down in the whole room, it did not perfect. winston kept his chin nuzzled into the author and for perhaps not strictly kept, because she extended her and bounced. he had exchanged an eighteenth-century nobleman offering his body merely a small, sandy-haired woman putting her and it guiltily home. but no, the flat a great fuzzy aureole of goldstein at present the very good one of parody of goldstein. big brother is watching you, the meagreness of civilization. the four of being spoken to, came from a dulled mirror which was a sheep, and was merely to wear. but this time he had happened -- minitrue, minipax, miniluv, and the thought her from very fair, his powerful chest.”</p>\n<p>This feels like it’s gone on long enough, but tasks I could accomplish next include building logic for punctuation other than periods, or adding in capital letters for the first words in each sentence of my output.\nIf you’re interested in the full code, it’s on Github, at <a href=\"https://github.com/eeclaire/data-structures/tree/master/markov-chain\">https://github.com/eeclaire/data-structures/tree/master/markov-chain</a></p>\n";
+module.exports = "<p>During my hackNY interview last year, I was asked about Markov Chains. Ever since that, I’ve wanted to implement a Markov-Chain from scratch. And this past Friday, I finally did!<br>A Markov Chain can be described as a set of states. Moving between each state has a particular probability. A sequence of states is created by moving from one state to another according to the probabilities that link the current state to the other states in the set. The probabilities from one state are conditionally independent from those in past states. In other words, if I move from state A to state B, the probability of moving from B to state C is not affected by my past in state A.<br>I recommend checking out <a href=\"http://setosa.io/ev/markov-chains/\">http://setosa.io/ev/markov-chains/</a> if you’re unfamiliar with how Markov Chains work!</p>\n<p>I split my work up into “Pre-processing the text”, “Building the Markov Chain Graph”, and “Traversing the Markov Chain.” </p>\n<h3 id=\"pre-processing\">Pre-processing</h3>\n<p>It’s easier to operate with a list of words than with a string of characters, so before I can do anything with the Markov Chain itself, I need to do some pre-processing. Since I’m using Python, it’s pretty easy: all I have to do is call the <code>split()</code> method on the input string. By default this will split up the string using space as a delimiter. The string “Hello world. Goodnight moon.” becomes [“Hello”, “world.”, “Goodnight”, “moon.”].<br>However I’m worried about having capital letters in the middle of a sentence, and I’d really like to be able to use periods as an end-of-sentence marker. So, before splitting my string, I convert the entire thing to lowercase using the <code>.lower()</code> method and I add spaces around periods using replace to make sure they’ll be isolated. The command ultimately looks like</p>\n<pre><code>sentences = text_raw.lower().replace(&#39;.&#39;, &#39; . &#39;).split()\n</code></pre><p>Cool. Now my “Hello world. Goodnight moon.” string ends up like [“hello”, “world”, “.”, “goodnight”, “moon”, “.”] which feels pretty good. I’m ready to Markov the Chain out of this list!</p>\n<h3 id=\"building-the-markov-chain\">Building the Markov Chain</h3>\n<p>Markov Chains are basically a directed graph where the edges have a weight that is inversely proportional to their probability (as long as I remember how graphs work). There are a few different ways of representing graphs, but I’m going to go with an adjacency list, and because I’m in Python, I’m going to use a dictionary! :tada:<br>What’s more, I’m going to make a Markov class, because I want to practice my Object-Oriented Programming skills! So I create my class, and upon initializing it, I’m going to give it a dictionary attribute, which, in the example below, I call chain.</p>\n<pre><code>class Markov:\n    def __init__(self):\n        self.chain = {}\n</code></pre><p>Eyyy! Each key in this dictionary should be a possible current word, and each value will be a list of words that possibly follow this current word. So if I have the text “Goodnight room. Goodnight moon.” my dictionary should look like</p>\n<pre><code>{\n“goodnight”: [“room”, “moon”],\n“room”: [“.”],\n“moon”: [“.”],\n“.”: [“goodnight”]\n}\n</code></pre><p>Notice that as we decided earlier, the period counts as its own word. This is useful, because not all words make sense at the beginning of a sentence! By keeping track of words that follow a period, we can maintain some kind of grammatical logic. Heck yeah sentences!<br>Now that I’ve decided that, I just have to go through the list of words and add them all!\nFirst I’m going to practice adding words one at a time. Assuming I’m given the current word and the next word in the text (such as “goodnight” and “moon”), I can check if the current word already exists as a key in the dictionary. If it does, I can add the next word to the list of possible following words, and if it doesn’t, I can create that key-value pair. In the following code sample, the <code>.get()</code> method returns None if the “word” key doesn’t exist yet, so using that is an easy and clean way of checking whether I have that word in the dictionary yet.</p>\n<pre><code>def add_next_word(self, word, next_word):\n    if self.chain.get(word) is None:\n        self.chain[word] = [next_word]\n    else:\n        self.chain[word].append(next_word)\n</code></pre><p>This is a naive implementation where I keep adding words to the list of possible next words, regardless of whether I’ve seen them before or not, in order to maintain some sort of probability. It’s not super memory efficient, but I don’t like the idea of re-calculating the probability for each word in the list of possible next words <em>every time</em> I add a word, so YOLO.<br>In any case, since I have the logic to add a pair of words into my dictionary, now I can iterate through a full text and insert all of it into my dictionary to form a graph! Since I’ve decided periods should be the marker before the first word in a sentence, so I’m going to call my add_next_word function with it:</p>\n<pre><code>self.add_next_word(&#39;.&#39;, word_list[0])\n</code></pre><p>After that, I’m free to iterate through the rest of the text. I’m going to stop my loop before the last word, which should be a period by the way, so that I don’t get an index error when I try to access the last “next word.” So here we go!</p>\n<pre><code>def add_text(self, word_list):\n    self.add_next_word(&#39;.&#39;, word_list[0])   # sentences begin after a &#39;.&#39;\n    for i in range(0, len(word_list) - 1):\n        self.add_next_word(word_list[i], word_list[i + 1])\n</code></pre><p>Cool beans! And with these two functions, I can populate a Markov Chain! Next up is traversing it in order to generate sentences.</p>\n<h3 id=\"traversing-the-markov-chain\">Traversing the Markov Chain</h3>\n<p>So we created this graph. But it’s pretty useless unless I’m actually getting something out of it. The good news is that traversing the graph is pretty easy. I can give it a starting point, and <em>let it run wild</em>.  Basically, if I specify a starting word, I can make a random selection from the list of next possible words using <code>random.choice()</code>, then set that word as my current word, and pick a word from <em>its</em>  list of next possible words. So if I pick up my example dictionary from earlier</p>\n<pre><code>{\n“goodnight”: [“room”, “moon”],\n“room”: [“.”],\n“moon”: [“.”],\n“.”: [“goodnight”]\n}\n</code></pre><p>I would start with “.”. Since “goodnight” is the only word in that list, “goodnight” becomes the new current word. So now I’ll have to randomly pick from “room” and “moon”, and so on and so forth.<br>In code world, this looks a little like the following, but with a loop that repeats the logic</p>\n<pre><code>next_word = random.choice(self.chain[current_word])\ngenerated_text = generated_text + “ “ + next_word\ncurrent_word = next_word\n</code></pre><p>However, this could easily go on forever. So I want to create some kind of limit on my loop to indicate where I want sentences to end. One logical place is to end a sentence is a period. So if I come across a period, I can append it to the text and return the sentence I’ve created. Like so</p>\n<pre><code>next_word = random.choice(self.chain[current_word])\n            if next_word == &#39;.&#39;:\n                generated_text = generated_text + &quot;.&quot;\n                return generated_text\n</code></pre><p>But I don’t want to just rely on happening across a “.” to end a sentence because long sentences can get really tedious to parse, especially when they’re not saying anything particularly meaningful and maybe you’re wondering where they’re going with this and okay you get the message.<br>So maybe I want to stop traversing through the graph after <code>n</code> words. I can institute a word_count that I iterate after every word I add and control my loop using that. If I get past those <code>n</code> words, then I can just say “close enough”, throw a period at the end of the text, and return it. This might look a little like</p>\n<pre><code>while(word_count &lt; n):\n    next_word = random.choice(self.chain[current_word])\n    if next_word == &#39;.&#39;:\n        generated_text = generated_text + &quot;.&quot;\n        return generated_text\n    else:\n        generated_text = generated_text + &quot; &quot; + next_word\n        current_word = next_word\n        word_count += 1\n\n# Make sure each sentence ends with a period\nif generated_text[-1] != &#39;.&#39;:\n    generated_text = generated_text + &#39;.&#39;\n\nreturn generated_text\n</code></pre><p>I do want to make sure that the starting point for each sentence is the period. Because I want to make sure to start my sentence with a word that has started a sentence before (who has leadership experience, if you will). I’m going to count that period as my first word, because I like to cheat.<br>After adding that into my code, I get a sentence-generating method for my Markov Chain that looks like this.</p>\n<pre><code>def generate_sentence(self, n):\n    # Come up with the first word by using a possible word after a period\n    current_word = random.choice(self.chain[&#39;.&#39;])\n    generated_text = current_word\n    word_count = 1\n\n    # Iterate through the markov chain until you hit a period\n    # or the max number of words in a sentence\n    while(word_count &lt; n):\n        next_word = random.choice(self.chain[current_word])\n        if next_word == &#39;.&#39;:\n            generated_text = generated_text + &quot;.&quot;\n            return generated_text\n        else:\n            generated_text = generated_text + &quot; &quot; + next_word\n            current_word = next_word\n            word_count += 1\n\n    # Make sure each sentence ends with a period\n    if generated_text[-1] != &#39;.&#39;:\n        generated_text = generated_text + &#39;.&#39;\n\n    return generated_text\n</code></pre><p>Now that I’ve got all of this, I can write a script that reads in some text, instantiates my Markov Chain class, and calls in a little function that will call the generate_sentence method an <code>n_sentences</code> number of times. I did this with the first chapter of 1984 by Georges Orwell, and it’s generated some of the following paragraphs:</p>\n<p><em>10 max words per sentence and 5 sentences</em><br>“people simply an electric current was nearly a place in. the shut window-pane, the little sandy-haired woman who seemed to. you were bound to one of his face on with. actually flinched backwards in the telescreen was a tremulous murmur. a voluntary act of children with a thick neck.”</p>\n<p><em>10 max words per sentence and 10 sentences</em><br>“for a thick, quarto-sized blank book was illegal, since he. it was one seemed to tear out of the book. with the thing of places away about three other incident. it not turned pink and the ministry of boiled cabbage. their seats but childish handwriting as the future, for perhaps. but the screen. it was merely to him through a kind that the. better than before, moreover, so completely did happen winston had. it had any pretence was the thought police. the orators of about that every record of manner.”</p>\n<p><em>20 max words per sentence and 10 sentences</em><br>“he had never crossed his back the thought her arms could you. there was demanding the people, less. you saw the hand. at o&#39;brien was impossible to pin down in the whole room, it did not perfect. winston kept his chin nuzzled into the author and for perhaps not strictly kept, because she extended her and bounced. he had exchanged an eighteenth-century nobleman offering his body merely a small, sandy-haired woman putting her and it guiltily home. but no, the flat a great fuzzy aureole of goldstein at present the very good one of parody of goldstein. big brother is watching you, the meagreness of civilization. the four of being spoken to, came from a dulled mirror which was a sheep, and was merely to wear. but this time he had happened -- minitrue, minipax, miniluv, and the thought her from very fair, his powerful chest.”</p>\n<p>This feels like it’s gone on long enough, but tasks I could accomplish next include building logic for punctuation other than periods, or adding in capital letters for the first words in each sentence of my output.\nIf you’re interested in the full code, it’s on Github, at <a href=\"https://github.com/eeclaire/data-structures/tree/master/markov-chain\">https://github.com/eeclaire/data-structures/tree/master/markov-chain</a></p>\n";
 
 /***/ }),
 /* 151 */
+/***/ (function(module, exports) {
+
+module.exports = "<h2 id=\"talking-to-strangers-is-the-least-of-your-worries-https\">Talking to Strangers is the Least of Your Worries - HTTPS</h2>\n<p>Security on the internet is scary. There’s a lot to the internet, and it seems like a lot about security is written assuming that readers already know more about it than I do. Since I still <em>don’t really</em> understand how the internet works, my general attitude about infosec used to be that the scariest part about it was how little I knew about it. As the saying goes, “ignorance is bliss.” I had an anti-virus, I had passwords that I changed semi-frequently (every time I forgot one), and I delete emails from addresses I don’t know, ESPECIALLY if there’s an attachment. Sorry <code>viagra420@hotmail.com</code>, I think you’ve got the wrong email address, I get my performance enhancement drugs from <code>hotsinglesnearyou@yahoo.com</code>.</p>\n<p>However, since I’ve started at the <a href=\"https://www.recurse.com/\">Recurse Center</a> (RC) I’ve met people who not only care about infosec, but who are also knowledgeable on the subject. It’s cool because they have strong feelings about that, and they like to share their knowledge. The trouble is that they like to share everything that’s wrong or broken in their field. It’s like watching a trainwreck, except you live in a country where there is no ER, and the only firefighters around are your 14 year old neighbors who mostly train by spraying the hose at their pet Golden Retriever.</p>\n<p>I’m still no expert in security by any definition of the word, but I’m a little less ignorant than I was, and my forays into the interwebs are no longer blissful, which is unfortunate since my desired career path as a software engineer is probably going to include quite a bit of internetting. The good news is that I learned about some tools to protect myself, which is good since my high school computer and internet safety course included about as much about protection as a sex ed class in Alabama. That is to say none. <em>Real</em> internet users wait until the internet is fixed.</p>\n<p>Since starting at RC, I’ve had one terrifying discussion after another, including about HTTPS, ad-trackers, and the fact that software is inherently broken.</p>\n<h3 id=\"https\">HTTPS</h3>\n<p>I blame HTTPS for all of this, really, because I was just having lunch peacefully in a side room when a bunch of RC’ers came in for a workshop on HTTPS. I knew of the recent advent of HTTPS, so I decided to stick around “while I finished eating.” Yeah, right. An hour and a half later, I was very afraid of browsing the internet.  </p>\n<p>As it turns out, the ‘S’ in <a href=\"https://strugee.net/presentation-https-deployment/\">HTTPS stands for “Shitshow”</a> but the worst part is that <em>HTTPS IS STILL A GAZILLION TIMES BETTER THAN HTTP.</em></p>\n<p>Generally, you want to protect yourself from two kinds of attacks, passive and active. Passive attacks are akin to someone listening in on your phone conversation on a third line, or casually watching as you send your banking information to make a transaction, which is creepy enough. Active attacks involve someone modifying the information you send and/or receive. If they change information on the page that you’re seeing, that’s an active attack. </p>\n<p>Under HTTPS, there are a few different factors that determine whether your browsing is safe: <em>confidentiality</em>, <em>integrity</em>, and <em>authenticity</em>.  Confidentiality measures whether anyone can see what you’re doing - this concerns itself with whether you are the victim of a passive attack. Integrity indicates whether anyone can interfere with your actions  - specifically whether anyone is tampering with the transmitted  encrypted data . Authenticity is on a next level entirely. It tells you whether you’re even talking to who <em>you think</em> you’re talking to. It protects you from thinking you’re on your bank’s website when you’re actually at some malicious IP address masquerading as your bank’s website.</p>\n<p>HTTPS’ solution to guaranteeing authenticity is Certificate Authorities. Basically, when you navigate to a page on the interwebs, that page exists at an IP address. When you type a URL like <a href=\"https://www.nasa.gov/\">https://www.nasa.gov/</a> into your searchbar, your browser finds out what IP address corresponds to the URL you entered by looking it up in what amounts to a giant dictionary of domain names (URLs) called a DNS server. However, DNS servers can be compromised, and if that happens, #hack3r5 can redirect you to their IP address, even if the link in the search bar is still correct. With HTTPS, you can theoretically verify the page you’re accessing using Certificate Authorities (CAs). </p>\n<p>CAs are trusted third parties that will verify the identity of the webserver at the IP address at which you ended up. When your browser goes to that IP address, with HTTPS, your browser asks the webserver for a certificate signed by a trusted CA. The webserver should already have this. There’s this one-time process where the webserver is like “oh shit, I guess I should do this” and reaches out to the CA with its fancy, cryptographically magic key (I am a Very Professional Software Person who knows these things), and asks the CA to co-sign on it. Once the CA verifies it through some more computer magic (have I mentioned I am a Very Knowledgeable Software Person?), it fills out a form (the certificate) with the webserver’s key. The CA signs off on it using its own CA key that the webserver doesn’t know, and passes along the certificate to the webserver. The webserver is now as proud as a 16-year old who just got their driver’s license, and shows it off to the browser, who sees the CA’s key, and <em>does</em> have a key to verify that the CA’s key is legit. Since the browser can see that the certificate was indeed signed by the CA, it decides it can trust the cryptographic magic key that the webserver wanted to give it all along.\nThis works because of public-private key pairs. There is more to it (like several layers of CAs that interact with each other because there are A LOT of domains) but that’s the general gist. If a valid certificate can’t be obtained for an HTTPS page, your browser will most likely give you an error like the one below.</p>\n<p>“Well that sounds pretty good,” I said. “That seems safe. Let’s move on to ad-trackers, blog-writer Claire.” Not so fast, student Claire, why don’t you finish up that sandwich and keep listening.</p>\n<p>As it turns out, you can’t even (fully) trust CAs. </p>\n<p>I should mention that each browser has a list of trusted CAs. In Chrome, you can go to <code>Settings</code>&gt;<code>HTTPS/SSL</code>&gt;<code>Authorities</code> to check out which certificate authorities Google trusts. However, there can be many layers of CAs that <em>can certify each other.</em> Whenever your browser receives a certificate, it probably hasn’t been directly signed by a root CA that is in your browser’s list of trustworthy CAs, but instead has been signed by a smaller CA that has been signed by another CA that has been signed by another CA that has been signed by … that has been signed by the root CA in your browser. Your browser has to form this chain of trust in order to verify each website.  It’s great because that means the entire system is only as strong as the weakest link. This inspires confidence already.</p>\n<p>Some of the main issues are as follows:\n<em>CAs can be, and are, compromised. If the CA is hacked, attackers can gain enough access to the CA database magic to start issuing arbitrary certificates. Which means random people now might have the certificate for, I don’t know, gmail.com, and your browser will be like “yeah, that’s totally good” even if it’s garbage. <a href=\"#1\">1</a>\n</em>Not all CAs are created equal. Some are more vulnerable to hacking than others, yet through the CA process, they are trusted equally as long as they are a part of the trust chain. And just like any other hack, there is no guarantee that any particular CA has not already been compromised.\n<em>CAs, like any piece of software, are subject to bugs. The problem here is the impact. There are many cases of certificates issued to webservers that shouldn’t qualify. Well-intentioned as they may be, this begs the question of how trustworthy CAs really are.\n</em>Monopolies exist in the CA sphere also. Because of the chain of trust, certain CAs are key to the validation of such a large portion of the internet that browsers have no choice but to whitelist them no matter how badly they screw up, lest ⅓ of the internet became inaccessible to its users.\n*Oh by the way, the entire idea of certificates and CAs was created as “a bit of a hand-wave” back in 1994 to protect against a still theoretical man-in-the-middle attack. I still feel good about this, do you feel good about this?</p>\n<p>The internet is terrifying.</p>\n<p>And hey, at least that’s HTTPS, where you even try to verify the website you’re on, and encrypt the information. If you think the shortcomings of HTTPS are bad, just imagine all of the fun you can have on plain old HTTP. Wahoo!</p>\n<p>Under HTTP, you run the risk of being led to a malicious webserver even if the URL in the search bar is correct. The malicious attacker will often interact with the website you meant to visit for you. To you it just looks like you’re interacting with the website as if nothing is wrong, but the hacker sits in the middle, exchanging security information between and the website you meant to reach, all the while maintaining control over what does occur.</p>\n<p>I wish I could offer tools to help with this, but my understanding is that the inertia of the CA industry as it is makes it hard to move in any other direction. The EFF is doing good work toward improving internet health in general. There are tools like HTTPS Everywhere, that aim to replace any regular HTTP with the appropriate HTTPS alternative, as long as it exists and the website supports it. But that requires that websites support it, and even still these might break websites.</p>\n<h4 id=\"1\">1</h4>\n<p>I’m being a bit disingenuous here. Some high profile websites employ additional security tools such as OCSP stapling or public key pinning. Moreover, there are usually blacklists that revoke certain certificates that are known to have been falsely given or maliciously obtained. If a domain is important enough (and one would hope that google.com fits in that group), these compromised certificates will be included in your browser’s blacklist of “seemingly-okay-certificates-that-are-actually-not-to-be-trusted&quot;. However, that does assume the certificate is <em>known</em> to be compromised first.</p>\n";
+
+/***/ }),
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14847,7 +14859,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14876,7 +14888,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14894,9 +14906,9 @@ module.exports = AutoFocusUtils;
 
 var EventPropagators = __webpack_require__(31);
 var ExecutionEnvironment = __webpack_require__(7);
-var FallbackCompositionState = __webpack_require__(159);
-var SyntheticCompositionEvent = __webpack_require__(202);
-var SyntheticInputEvent = __webpack_require__(205);
+var FallbackCompositionState = __webpack_require__(160);
+var SyntheticCompositionEvent = __webpack_require__(203);
+var SyntheticInputEvent = __webpack_require__(206);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -15266,7 +15278,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15287,7 +15299,7 @@ var ExecutionEnvironment = __webpack_require__(7);
 var ReactInstrumentation = __webpack_require__(11);
 
 var camelizeStyleName = __webpack_require__(131);
-var dangerousStyleValue = __webpack_require__(212);
+var dangerousStyleValue = __webpack_require__(213);
 var hyphenateStyleName = __webpack_require__(138);
 var memoizeStringOnly = __webpack_require__(141);
 var warning = __webpack_require__(2);
@@ -15481,7 +15493,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15807,7 +15819,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15861,7 +15873,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15892,7 +15904,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15997,7 +16009,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16097,7 +16109,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16314,7 +16326,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16474,7 +16486,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16491,7 +16503,7 @@ module.exports = ReactChildReconciler;
 
 
 var DOMChildrenOperations = __webpack_require__(49);
-var ReactDOMIDOperations = __webpack_require__(169);
+var ReactDOMIDOperations = __webpack_require__(170);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -16509,7 +16521,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16538,7 +16550,7 @@ var ReactNodeTypes = __webpack_require__(90);
 var ReactReconciler = __webpack_require__(26);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(211);
+  var checkReactTypeSpec = __webpack_require__(212);
 }
 
 var emptyObject = __webpack_require__(29);
@@ -17417,7 +17429,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17436,15 +17448,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDefaultInjection = __webpack_require__(181);
+var ReactDefaultInjection = __webpack_require__(182);
 var ReactMount = __webpack_require__(89);
 var ReactReconciler = __webpack_require__(26);
 var ReactUpdates = __webpack_require__(14);
-var ReactVersion = __webpack_require__(196);
+var ReactVersion = __webpack_require__(197);
 
-var findDOMNode = __webpack_require__(213);
+var findDOMNode = __webpack_require__(214);
 var getHostComponentFromComposite = __webpack_require__(95);
-var renderSubtreeIntoContainer = __webpack_require__(221);
+var renderSubtreeIntoContainer = __webpack_require__(222);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -17521,9 +17533,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(11);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(178);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(172);
-  var ReactDOMInvalidARIAHook = __webpack_require__(171);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(179);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(173);
+  var ReactDOMInvalidARIAHook = __webpack_require__(172);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -17534,7 +17546,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17555,8 +17567,8 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(5);
 
-var AutoFocusUtils = __webpack_require__(152);
-var CSSPropertyOperations = __webpack_require__(154);
+var AutoFocusUtils = __webpack_require__(153);
+var CSSPropertyOperations = __webpack_require__(155);
 var DOMLazyTree = __webpack_require__(25);
 var DOMNamespaces = __webpack_require__(50);
 var DOMProperty = __webpack_require__(17);
@@ -17566,13 +17578,13 @@ var EventPluginRegistry = __webpack_require__(37);
 var ReactBrowserEventEmitter = __webpack_require__(38);
 var ReactDOMComponentFlags = __webpack_require__(83);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMInput = __webpack_require__(170);
-var ReactDOMOption = __webpack_require__(173);
+var ReactDOMInput = __webpack_require__(171);
+var ReactDOMOption = __webpack_require__(174);
 var ReactDOMSelect = __webpack_require__(84);
-var ReactDOMTextarea = __webpack_require__(176);
+var ReactDOMTextarea = __webpack_require__(177);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactMultiChild = __webpack_require__(189);
-var ReactServerRenderingTransaction = __webpack_require__(194);
+var ReactMultiChild = __webpack_require__(190);
+var ReactServerRenderingTransaction = __webpack_require__(195);
 
 var emptyFunction = __webpack_require__(12);
 var escapeTextContentForBrowser = __webpack_require__(41);
@@ -18541,7 +18553,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18580,7 +18592,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18645,7 +18657,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18669,7 +18681,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18708,7 +18720,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18992,7 +19004,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19091,7 +19103,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19140,7 +19152,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19269,7 +19281,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19287,7 +19299,7 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(7);
 
-var getNodeForCharacterOffset = __webpack_require__(218);
+var getNodeForCharacterOffset = __webpack_require__(219);
 var getTextContentAccessor = __webpack_require__(96);
 
 /**
@@ -19486,7 +19498,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19656,7 +19668,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19822,7 +19834,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19964,7 +19976,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20082,7 +20094,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20099,8 +20111,8 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(187);
-var ReactHostOperationHistoryHook = __webpack_require__(185);
+var ReactInvalidSetStateWarningHook = __webpack_require__(188);
+var ReactHostOperationHistoryHook = __webpack_require__(186);
 var ReactComponentTreeHook = __webpack_require__(10);
 var ExecutionEnvironment = __webpack_require__(7);
 
@@ -20449,7 +20461,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20522,7 +20534,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20538,25 +20550,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(151);
-var BeforeInputEventPlugin = __webpack_require__(153);
-var ChangeEventPlugin = __webpack_require__(155);
-var DefaultEventPluginOrder = __webpack_require__(157);
-var EnterLeaveEventPlugin = __webpack_require__(158);
-var HTMLDOMPropertyConfig = __webpack_require__(160);
-var ReactComponentBrowserEnvironment = __webpack_require__(162);
-var ReactDOMComponent = __webpack_require__(165);
+var ARIADOMPropertyConfig = __webpack_require__(152);
+var BeforeInputEventPlugin = __webpack_require__(154);
+var ChangeEventPlugin = __webpack_require__(156);
+var DefaultEventPluginOrder = __webpack_require__(158);
+var EnterLeaveEventPlugin = __webpack_require__(159);
+var HTMLDOMPropertyConfig = __webpack_require__(161);
+var ReactComponentBrowserEnvironment = __webpack_require__(163);
+var ReactDOMComponent = __webpack_require__(166);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactDOMEmptyComponent = __webpack_require__(167);
-var ReactDOMTreeTraversal = __webpack_require__(177);
-var ReactDOMTextComponent = __webpack_require__(175);
-var ReactDefaultBatchingStrategy = __webpack_require__(180);
-var ReactEventListener = __webpack_require__(184);
-var ReactInjection = __webpack_require__(186);
-var ReactReconcileTransaction = __webpack_require__(192);
-var SVGDOMPropertyConfig = __webpack_require__(197);
-var SelectEventPlugin = __webpack_require__(198);
-var SimpleEventPlugin = __webpack_require__(199);
+var ReactDOMEmptyComponent = __webpack_require__(168);
+var ReactDOMTreeTraversal = __webpack_require__(178);
+var ReactDOMTextComponent = __webpack_require__(176);
+var ReactDefaultBatchingStrategy = __webpack_require__(181);
+var ReactEventListener = __webpack_require__(185);
+var ReactInjection = __webpack_require__(187);
+var ReactReconcileTransaction = __webpack_require__(193);
+var SVGDOMPropertyConfig = __webpack_require__(198);
+var SelectEventPlugin = __webpack_require__(199);
+var SimpleEventPlugin = __webpack_require__(200);
 
 var alreadyInjected = false;
 
@@ -20613,7 +20625,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20638,7 +20650,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20676,7 +20688,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20836,7 +20848,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20875,7 +20887,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20914,7 +20926,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20957,7 +20969,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20973,7 +20985,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-var adler32 = __webpack_require__(210);
+var adler32 = __webpack_require__(211);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -21012,7 +21024,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21036,10 +21048,10 @@ var ReactInstrumentation = __webpack_require__(11);
 
 var ReactCurrentOwner = __webpack_require__(15);
 var ReactReconciler = __webpack_require__(26);
-var ReactChildReconciler = __webpack_require__(161);
+var ReactChildReconciler = __webpack_require__(162);
 
 var emptyFunction = __webpack_require__(12);
-var flattenChildren = __webpack_require__(214);
+var flattenChildren = __webpack_require__(215);
 var invariant = __webpack_require__(1);
 
 /**
@@ -21468,7 +21480,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21568,7 +21580,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21599,7 +21611,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21783,7 +21795,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21800,7 +21812,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-var ReactOwner = __webpack_require__(190);
+var ReactOwner = __webpack_require__(191);
 
 var ReactRef = {};
 
@@ -21877,7 +21889,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21898,7 +21910,7 @@ var _assign = __webpack_require__(5);
 var PooledClass = __webpack_require__(20);
 var Transaction = __webpack_require__(40);
 var ReactInstrumentation = __webpack_require__(11);
-var ReactServerUpdateQueue = __webpack_require__(195);
+var ReactServerUpdateQueue = __webpack_require__(196);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -21973,7 +21985,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22118,7 +22130,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22137,7 +22149,7 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.4.2';
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22444,7 +22456,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22640,7 +22652,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22662,17 +22674,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(72);
 var EventPropagators = __webpack_require__(31);
 var ReactDOMComponentTree = __webpack_require__(6);
-var SyntheticAnimationEvent = __webpack_require__(200);
-var SyntheticClipboardEvent = __webpack_require__(201);
+var SyntheticAnimationEvent = __webpack_require__(201);
+var SyntheticClipboardEvent = __webpack_require__(202);
 var SyntheticEvent = __webpack_require__(16);
-var SyntheticFocusEvent = __webpack_require__(204);
-var SyntheticKeyboardEvent = __webpack_require__(206);
+var SyntheticFocusEvent = __webpack_require__(205);
+var SyntheticKeyboardEvent = __webpack_require__(207);
 var SyntheticMouseEvent = __webpack_require__(39);
-var SyntheticDragEvent = __webpack_require__(203);
-var SyntheticTouchEvent = __webpack_require__(207);
-var SyntheticTransitionEvent = __webpack_require__(208);
+var SyntheticDragEvent = __webpack_require__(204);
+var SyntheticTouchEvent = __webpack_require__(208);
+var SyntheticTransitionEvent = __webpack_require__(209);
 var SyntheticUIEvent = __webpack_require__(33);
-var SyntheticWheelEvent = __webpack_require__(209);
+var SyntheticWheelEvent = __webpack_require__(210);
 
 var emptyFunction = __webpack_require__(12);
 var getEventCharCode = __webpack_require__(58);
@@ -22874,7 +22886,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22918,7 +22930,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22961,7 +22973,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23002,7 +23014,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23043,7 +23055,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23084,7 +23096,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23126,7 +23138,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23145,7 +23157,7 @@ module.exports = SyntheticInputEvent;
 var SyntheticUIEvent = __webpack_require__(33);
 
 var getEventCharCode = __webpack_require__(58);
-var getEventKey = __webpack_require__(215);
+var getEventKey = __webpack_require__(216);
 var getEventModifierState = __webpack_require__(59);
 
 /**
@@ -23215,7 +23227,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23265,7 +23277,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23309,7 +23321,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23368,7 +23380,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23417,7 +23429,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23435,7 +23447,7 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(191);
+var ReactPropTypeLocationNames = __webpack_require__(192);
 var ReactPropTypesSecret = __webpack_require__(91);
 
 var invariant = __webpack_require__(1);
@@ -23510,7 +23522,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23595,7 +23607,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23661,7 +23673,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23743,7 +23755,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23850,7 +23862,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23896,7 +23908,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23922,7 +23934,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24001,7 +24013,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24107,7 +24119,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24138,7 +24150,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24159,7 +24171,7 @@ var ReactMount = __webpack_require__(89);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24195,7 +24207,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24229,7 +24241,7 @@ exports.default = IndexLink;
 module.exports = exports['default'];
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24299,7 +24311,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24366,7 +24378,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24441,7 +24453,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24505,7 +24517,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24557,7 +24569,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24788,7 +24800,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24825,7 +24837,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24954,7 +24966,7 @@ function runLeaveHooks(routes, prevState) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25018,7 +25030,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25040,7 +25052,7 @@ exports.default = (0, _createRouterHistory2.default)(_createBrowserHistory2.defa
 module.exports = exports['default'];
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25123,7 +25135,7 @@ exports.default = computeChangedRoutes;
 module.exports = exports['default'];
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25175,7 +25187,7 @@ exports.default = getComponents;
 module.exports = exports['default'];
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25207,7 +25219,7 @@ exports.default = getRouteParams;
 module.exports = exports['default'];
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25229,7 +25241,7 @@ exports.default = (0, _createRouterHistory2.default)(_createHashHistory2.default
 module.exports = exports['default'];
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25387,7 +25399,7 @@ function isActive(_ref, indexOnly, currentLocation, routes, params) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25477,7 +25489,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25735,7 +25747,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25793,7 +25805,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25864,7 +25876,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25928,7 +25940,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26046,7 +26058,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26062,11 +26074,11 @@ module.exports = PooledClass;
 
 
 
-var PooledClass = __webpack_require__(244);
+var PooledClass = __webpack_require__(245);
 var ReactElement = __webpack_require__(22);
 
 var emptyFunction = __webpack_require__(12);
-var traverseAllChildren = __webpack_require__(253);
+var traverseAllChildren = __webpack_require__(254);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -26242,7 +26254,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26965,7 +26977,7 @@ module.exports = ReactClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27141,7 +27153,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27581,7 +27593,7 @@ module.exports = ReactPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27628,7 +27640,7 @@ ReactPureComponent.prototype.isPureReactComponent = true;
 module.exports = ReactPureComponent;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27647,7 +27659,7 @@ module.exports = ReactPureComponent;
 module.exports = '15.4.2';
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27740,7 +27752,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27784,7 +27796,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27807,7 +27819,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(108);
 
 var getIteratorFn = __webpack_require__(71);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(243);
+var KeyEscapeUtils = __webpack_require__(244);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -27966,7 +27978,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27979,7 +27991,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28047,11 +28059,12 @@ module.exports = warning;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2017-02-09-building-a-markov-chain.md": 150
+	"./2017-02-09-building-a-markov-chain.md": 150,
+	"./2017-02-28-talking-to-strangers-is-the-least-of-your-worries-https.md": 151
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -28067,11 +28080,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 256;
+webpackContext.id = 257;
 
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
