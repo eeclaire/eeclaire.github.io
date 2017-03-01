@@ -20,7 +20,7 @@ Under HTTPS, there are a few different factors that determine whether your brows
 HTTPS’ solution to guaranteeing authenticity is Certificate Authorities. Basically, when you navigate to a page on the interwebs, that page exists at an IP address. When you type a URL like https://www.nasa.gov/ into your searchbar, your browser finds out what IP address corresponds to the URL you entered by looking it up in what amounts to a giant dictionary of domain names (URLs) called a DNS server. However, DNS servers can be compromised, and if that happens, #hack3r5 can redirect you to their IP address, even if the link in the search bar is still correct. With HTTPS, you can theoretically verify the page you’re accessing using Certificate Authorities (CAs). 
 
 CAs are trusted third parties that will verify the identity of the webserver at the IP address at which you ended up. When your browser goes to that IP address, with HTTPS, your browser asks the webserver for a certificate signed by a trusted CA. The webserver should already have this. There’s this one-time process where the webserver is like “oh shit, I guess I should do this” and reaches out to the CA with its fancy, cryptographically magic key (I am a Very Professional Software Person who knows these things), and asks the CA to co-sign on it. Once the CA verifies it through some more computer magic (have I mentioned I am a Very Knowledgeable Software Person?), it fills out a form (the certificate) with the webserver’s key. The CA signs off on it using its own CA key that the webserver doesn’t know, and passes along the certificate to the webserver. The webserver is now as proud as a 16-year old who just got their driver’s license, and shows it off to the browser, who sees the CA’s key, and _does_ have a key to verify that the CA’s key is legit. Since the browser can see that the certificate was indeed signed by the CA, it decides it can trust the cryptographic magic key that the webserver wanted to give it all along.
-This works because of public-private key pairs. There is more to it (like several layers of CAs that interact with each other because there are A LOT of domains) but that’s the general gist. If a valid certificate can’t be obtained for an HTTPS page, your browser will most likely give you an error like the one below.
+This works because of public-private key pairs. There is more to it (like several layers of CAs that interact with each other because there are A LOT of domains) but that’s the general gist. If a valid certificate can’t be obtained for an HTTPS page, your browser will most likely give you an error.
 
 
 “Well that sounds pretty good,” I said. “That seems safe. Let’s move on to ad-trackers, blog-writer Claire.” Not so fast, student Claire, why don’t you finish up that sandwich and keep listening.
@@ -44,7 +44,12 @@ Under HTTP, you run the risk of being led to a malicious webserver even if the U
 
 I wish I could offer tools to help with this, but my understanding is that the inertia of the CA industry as it is makes it hard to move in any other direction. The EFF is doing good work toward improving internet health in general. There are tools like HTTPS Everywhere, that aim to replace any regular HTTP with the appropriate HTTPS alternative, as long as it exists and the website supports it. But that requires that websites support it, and even still these might break websites.
 
+  
+  
 
+Shoutout to [AJ](https://github.com/strugee) and [Jason](https://github.com/jasonaowen) for telling me more about security than I wanted to know. If I can't sleep at night now, it's your fault. Thank you espcially to AJ for fact-checking this post.
+  
 
+  
 #### 1
 I’m being a bit disingenuous here. Some high profile websites employ additional security tools such as OCSP stapling or public key pinning. Moreover, there are usually blacklists that revoke certain certificates that are known to have been falsely given or maliciously obtained. If a domain is important enough (and one would hope that google.com fits in that group), these compromised certificates will be included in your browser’s blacklist of “seemingly-okay-certificates-that-are-actually-not-to-be-trusted". However, that does assume the certificate is _known_ to be compromised first.
