@@ -12,19 +12,19 @@ const photoList = [
 		"id":2
 	},
 	{
-		"url":"/src/img/photos/__8_0299.jpg",
+		"url":"/src/img/photos/8_0299.jpg",
 		"title":"Quai de Conti, Ile de la Cité",
 		"date": "2015",
 		"id":3
 	},
 	{
-		"url":"/src/img/photos/_14_0202.jpg",
+		"url":"/src/img/photos/14_0202.jpg",
 		"title":"City Island Bridge, Harrisburg",
 		"date": "2015",
 		"id":4
 	},
 	{
-		"url":"/src/img/photos/__6_0297.jpg",
+		"url":"/src/img/photos/6_0297.jpg",
 		"title":"Gare d'Austerlitz, PARIS",
 		"date": "2015",
 		"id":5
@@ -36,13 +36,13 @@ const photoList = [
 		"id":6
 	},
 	{
-		"url":"/src/img/photos/_6A_0194.jpg",
+		"url":"/src/img/photos/6A_0194.jpg",
 		"title":"North Philadelphia",
 		"date": "2015",
 		"id":7
 	},
 	{
-		"url":"/src/img/photos/_30_0218.jpg",
+		"url":"/src/img/photos/30_0218.jpg",
 		"title":"Camden Aquarium",
 		"date": "2015",
 		"id":8
