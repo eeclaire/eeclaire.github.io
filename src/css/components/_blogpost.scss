@@ -9,6 +9,7 @@ div {
 
 .blogDescription {
 	margin-top: 10px;
+	text-align: center;
 }
 
 .blogContent {
@@ -18,7 +19,7 @@ div {
 
 .blogPost {
 	@include post;
-	margin-top: 10px;
+	padding-top: 20px;
 }
 
 .blogTitle {

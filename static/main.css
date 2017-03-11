@@ -15,7 +15,8 @@ body {
 
 h1 {
   margin-top: 0;
-  background-color: #B7B3BF; }
+  background-color: #B7B3BF;
+  overflow: hidden; }
 
 ol,
 ul {
@@ -69,13 +70,13 @@ body {
   font-family: "Roboto", sans-serif; }
 
 #title {
-  border-bottom: 1px solid #555;
+  border-bottom: 2px solid #A5A6A8;
   font-size: 40px;
   font-weight: 300;
-  margin-top: 40px;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 4px; }
+  padding-bottom: 15px;
+  padding-top: 45px; }
   #title a {
     color: black;
     text-decoration: none; }
@@ -751,7 +752,7 @@ div {
   font-style: italic; }
 
 .photoPost {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 20px; }
 
 .photoTitle {
@@ -780,7 +781,7 @@ a {
   margin-bottom: 8px; }
 
 .projectPost {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 20px;
   text-align: center; }
 
@@ -800,7 +801,8 @@ div {
   font-style: italic; }
 
 .blogDescription {
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-align: center; }
 
 .blogContent {
   margin-left: 5px;
@@ -808,9 +810,9 @@ div {
   margin-top: 20px; }
 
 .blogPost {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 20px;
-  margin-top: 10px; }
+  padding-top: 20px; }
 
 .blogTitle {
   font-size: 24px;
