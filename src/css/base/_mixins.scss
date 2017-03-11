@@ -3,9 +3,18 @@
 	margin: 2px auto 2px;
 }
 
-@mixin post {
-	margin-top: 10px;
-	margin-bottom: 20px;
+@mixin post-tile {
+	background-color: #FAFAFA;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px;
+	margin-bottom: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 60%;
 }
 
 @mixin text-content {

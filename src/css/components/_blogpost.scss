@@ -18,7 +18,7 @@ div {
 }
 
 .blogPost {
-	@include post;
+	@include post-tile;
 	padding-top: 20px;
 }
 

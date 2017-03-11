@@ -12,7 +12,7 @@
 
 .photos {
 	@include photo;
-	max-width: 50%;
+	max-width: 80%;
 }
 
 .text-content {
@@ -32,6 +32,27 @@
     margin-top: 150px;
     position: absolute;
     right: 0px;
+}
+
+#title {
+	border-bottom: 2px solid #A5A6A8;
+	padding-bottom: 15px;
+	padding-top: 45px;
+}
+
+nav {
+	display:block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: fit-content;
+
+	li {
+		display: inline-block;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
 }
 
 

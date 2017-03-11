@@ -23,7 +23,7 @@ a {
 }
 
 .projectPost {
-	@include post;
+	@include post-tile;
 	text-align: center;
 }
 

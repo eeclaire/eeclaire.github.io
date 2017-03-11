@@ -70,13 +70,10 @@ body {
   font-family: "Roboto", sans-serif; }
 
 #title {
-  border-bottom: 2px solid #A5A6A8;
   font-size: 40px;
   font-weight: 300;
   text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  padding-top: 45px; }
+  text-transform: uppercase; }
   #title a {
     color: black;
     text-decoration: none; }
@@ -90,17 +87,8 @@ a {
     text-decoration: underline; }
 
 nav {
-  display: block;
-  font-size: 16px;
-  margin: 0 auto;
-  margin-top: 8px;
-  margin-bottom: 16px;
-  padding-top: 6px;
-  width: fit-content; }
+  font-size: 16px; }
   nav li {
-    display: inline-block;
-    margin-left: 8px;
-    margin-right: 8px;
     text-transform: uppercase; }
   nav a {
     color: black;
@@ -120,7 +108,7 @@ nav {
 .photos {
   display: block;
   margin: 2px auto 2px;
-  max-width: 50%; }
+  max-width: 80%; }
 
 .text-content {
   width: 60%;
@@ -144,6 +132,23 @@ nav {
   margin-top: 150px;
   position: absolute;
   right: 0px; }
+
+#title {
+  border-bottom: 2px solid #A5A6A8;
+  padding-bottom: 15px;
+  padding-top: 45px; }
+
+nav {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: fit-content; }
+  nav li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px; }
 
 .medaillon {
   width: 200px;
@@ -752,8 +757,17 @@ div {
   font-style: italic; }
 
 .photoPost {
-  margin-top: 10px;
-  margin-bottom: 20px; }
+  background-color: #FAFAFA;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%; }
 
 .photoTitle {
   font-size: 24px;
@@ -781,8 +795,17 @@ a {
   margin-bottom: 8px; }
 
 .projectPost {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%;
   text-align: center; }
 
 .projectTitle {
@@ -810,8 +833,17 @@ div {
   margin-top: 20px; }
 
 .blogPost {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%;
   padding-top: 20px; }
 
 .blogTitle {

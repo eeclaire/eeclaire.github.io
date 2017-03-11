@@ -8,7 +8,7 @@ div {
 }
 
 .photoPost {
-	@include post;
+	@include post-tile;
 }
 
 .photoTitle {
