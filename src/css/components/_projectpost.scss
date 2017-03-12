@@ -3,23 +3,21 @@ div {
 	margin: auto;
 }
 
-
 a {
 	color: #4078c0;
-		text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-		}
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .projectDescript {
 	margin-top: 4px;
+	margin-bottom: 10px;
 }
 
 .projectPhoto {
 	@include photo;
-	margin-top: 16px;
-	margin-bottom: 8px;
 }
 
 .projectPost {

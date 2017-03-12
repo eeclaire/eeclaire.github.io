@@ -108,7 +108,8 @@ nav {
 .projectPost .photos {
   display: block;
   margin: 2px auto 2px;
-  max-width: 80%; }
+  max-width: 80%;
+  margin-bottom: 20px; }
 
 .photoPost .photos {
   display: block;
@@ -790,13 +791,12 @@ a {
     text-decoration: underline; }
 
 .projectDescript {
-  margin-top: 4px; }
+  margin-top: 4px;
+  margin-bottom: 10px; }
 
 .projectPhoto {
   display: block;
-  margin: 2px auto 2px;
-  margin-top: 16px;
-  margin-bottom: 8px; }
+  margin: 2px auto 2px; }
 
 .projectPost {
   background-color: #FAFAFA;
