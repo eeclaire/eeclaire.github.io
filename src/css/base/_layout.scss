@@ -10,9 +10,14 @@
 	}
 }
 
-.photos {
+.projectPost .photos {
 	@include photo;
-	max-width: 80%;
+	max-width: 80%
+}
+
+.photoPost .photos {
+	@include photo;
+	max-width: 100%
 }
 
 .text-content {

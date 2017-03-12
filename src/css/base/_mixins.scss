@@ -5,16 +5,13 @@
 
 @mixin post-tile {
 	background-color: #FAFAFA;
-	border: 1px solid #DFDFDF;
-	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	margin-bottom: 40px;
 	margin-left: 20%;
 	margin-right: 20%;
-	padding-top: 35px;
-	padding-bottom: 25px;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding: 20px 5px 20px 5px;
 	width: 60%;
+
 }
 
 @mixin text-content {

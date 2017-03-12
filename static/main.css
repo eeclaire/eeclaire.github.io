@@ -105,10 +105,15 @@ nav {
       opacity: 0.8;
       filter: alpha(opacity=80); }
 
-.photos {
+.projectPost .photos {
   display: block;
   margin: 2px auto 2px;
   max-width: 80%; }
+
+.photoPost .photos {
+  display: block;
+  margin: 2px auto 2px;
+  max-width: 100%; }
 
 .text-content {
   width: 60%;
@@ -758,16 +763,15 @@ div {
 
 .photoPost {
   background-color: #FAFAFA;
-  border: 1px solid #DFDFDF;
-  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 60%; }
+  padding: 20px 5px 20px 5px;
+  width: 60%;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px; }
 
 .photoTitle {
   font-size: 24px;
@@ -796,15 +800,11 @@ a {
 
 .projectPost {
   background-color: #FAFAFA;
-  border: 1px solid #DFDFDF;
-  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 20px 5px 20px 5px;
   width: 60%;
   text-align: center; }
 
@@ -834,17 +834,14 @@ div {
 
 .blogPost {
   background-color: #FAFAFA;
-  border: 1px solid #DFDFDF;
-  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding-top: 35px;
-  padding-bottom: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 60%;
-  padding-top: 20px; }
+  padding: 20px 5px 20px 5px;
+  width: 60%; }
+  .blogPost:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .blogTitle {
   font-size: 24px;

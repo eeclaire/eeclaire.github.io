@@ -9,6 +9,9 @@ div {
 
 .photoPost {
 	@include post-tile;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
 }
 
 .photoTitle {
