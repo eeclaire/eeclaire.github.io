@@ -768,7 +768,7 @@ div {
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding: 20px 5px 20px 5px;
+  padding: 35px 5% 25px 5%;
   width: 60%;
   padding-left: 0px;
   padding-top: 0px;
@@ -804,7 +804,7 @@ a {
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding: 20px 5px 20px 5px;
+  padding: 35px 5% 25px 5%;
   width: 60%;
   text-align: center; }
 
@@ -838,7 +838,7 @@ div {
   margin-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
-  padding: 20px 5px 20px 5px;
+  padding: 35px 5% 25px 5%;
   width: 60%; }
   .blogPost:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }

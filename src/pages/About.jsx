@@ -4,7 +4,7 @@ const About =  React.createClass({
 	render() {
 		return (
 			<div className="text-content text-content-markdown">
-				<img className="medaillon" src="/src/img/brunch.jpg"/><p id="hullo">Hi!</p>
+				<img className="medaillon" src="/src/img/brunch.jpg"/><p id="hullo">Hello!</p>
 				<p>My name is Claire Durand. </p>
 				<br/>
 				<p>I recently finished a batch at the <a href="https://www.recurse.com/">Recurse Center</a>, where I focused on data engineering and visualization.

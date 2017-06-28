@@ -12761,7 +12761,7 @@ var About = _react2.default.createClass({
 			_react2.default.createElement(
 				"p",
 				{ id: "hullo" },
-				"Hi!"
+				"Hello!"
 			),
 			_react2.default.createElement(
 				"p",
